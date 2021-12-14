@@ -1,0 +1,67 @@
+#color {
+    border:none;
+    padding:10px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    width:60px;
+}
+#color:focus {
+    outline: none !important;
+}
+#color-picker {
+    -webkit-appearance: none;
+    border:none;
+    border-radius: 5px;
+    width:80px;
+    height:35px;
+}
+#color-picker:hover {
+    cursor: pointer;
+}
+#color-picker::-webkit-color-swatch-wrapper {
+	padding:0;
+}
+#color-picker::-webkit-color-swatch {
+	border: none;
+    border-radius: 5px;
+}
+.color-picker-cont > :nth-child(1) {
+    margin-right: 10px;
+    color:#000;
+    border:none;
+    padding:5px;
+    border-radius: 5px;
+}
+.color-picker-cont > :nth-child(1):hover{
+    cursor: pointer;
+    background-color: rgb(141, 19, 19);
+    color:#fff;
+}
+.color-picker-cont > :nth-child(3) {
+    margin-left: 10px;
+    color:#000;
+    border:none;
+    padding:5px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.color-picker-cont > :nth-child(3):hover{
+    cursor: pointer;
+    background-color: rgb(141, 19, 19);
+    color:#fff;
+}
+.color-picker-cont > :nth-child(4) {
+    margin-left: 10px;
+    color:#000;
+    border:none;
+    padding:5px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.color-picker-cont > :nth-child(4):hover{
+    cursor: pointer;
+    background-color: rgb(141, 19, 19);
+    color:#fff;
+}

@@ -1,0 +1,26 @@
+.App {
+    width:100%;
+    min-height: 100vh;
+    background-color: #06111C;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tool-cont {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:20px;
+}
+.color-picker-cont {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.color-picker-cont > :nth-child(1) {
+    color:#fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0 2px 0 0;
+    font-size: 1.2rem;
+}

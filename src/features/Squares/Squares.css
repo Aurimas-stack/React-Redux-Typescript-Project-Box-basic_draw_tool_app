@@ -1,0 +1,12 @@
+.square-cont {
+    margin-top:20px;
+    width:1189px;
+    height:783px;
+    border:5px solid #262626;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, 29px);
+    grid-template-rows: repeat(auto-fit, 29px);
+}
+.square {
+    border:1px solid #262626;
+}
